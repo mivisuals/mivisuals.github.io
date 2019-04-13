@@ -2731,7 +2731,7 @@ input, select, textarea {
 			min-height: 23em;
 			overflow: hidden;
 			position: relative;
-			width: 40%;
+			width: 100%;
 		}
 
 			.tiles article .image {
@@ -2806,7 +2806,7 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
-				width: 60%;
+				width: 100%;
 			}
 
 			.tiles article:nth-child(6n - 5):before {
@@ -2833,6 +2833,18 @@ input, select, textarea {
 				background-color: #87c5a4;
 			}
 
+			.tiles .product-branding {
+				background-position: center 66%;
+			}
+
+			.tiles .book-covers {
+				background-position: center 79%;
+			}
+
+			.tiles .sports-edits {
+				background-position: center 14%;
+			}
+
 		@media screen and (max-width: 1280px) {
 
 			.tiles article {
@@ -2847,7 +2859,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.tiles article {
-				width: 50% !important;
+				width: 100% !important;
 			}
 
 		}
