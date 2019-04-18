@@ -14,7 +14,7 @@
 /* Banner */
 
 	#banner {
-		body.is-preload & {
+		// body.is-preload & {
 			&:after {
 				opacity: 0.85;
 			}
